@@ -1,0 +1,28 @@
+<div class="main-card">
+    <mat-card class="example-card">
+        <mat-card-content>
+            <p>Welcome to the Log In page!</p>
+            <form [formGroup]="loginForm" (ngSubmit)="submitForm()">
+                <input class="auth" placeholder="E-Mail" type="email" formControlName="email" autocomplete="off"> <br>
+                <div class="errorMsg"
+                    *ngIf="isSubmitted && loginForm.controls['email'].errors?.['required'] && (loginForm.controls['email'].dirty || loginForm.controls['email'].touched)">
+                    E-mail is required.
+                </div>
+                <div class="errorMsg"
+                    *ngIf="isSubmitted && loginForm.controls['email'].errors?.['email'] && (loginForm.controls['email'].dirty || loginForm.controls['email'].touched)">
+                    A valid e-mail is required.
+                </div>
+                <input class="auth" placeholder="Password" type="password" formControlName="password"><br>
+                <div class="errorMsg"
+                    *ngIf="isSubmitted && loginForm.controls['password'].errors?.['required'] && (loginForm.controls['password'].dirty ||loginForm.controls['password'].touched)">
+                    Password is required.
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+            <a [routerLink]="['/auth/forgotpassword']">
+                <p>Forgot password?</p>
+            </a>
+        </mat-card-content>
+    </mat-card>
+</div>

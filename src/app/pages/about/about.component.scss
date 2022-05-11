@@ -1,0 +1,42 @@
+.main-card {  
+    color: #fff;
+    background-image: url("../../../assets/img/library.jpg");  
+    background-size: cover;
+    background-size: 100%;  
+    height: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}  
+
+.example-card {
+    overflow: hidden;
+    max-width: 800px;
+    margin-top: 7%;  
+    margin-bottom: 7%;
+    border-radius: 20px;
+    background-color: #94A590;
+    padding: 50px 100px 50px 100px;
+    mat-card-content {
+        text-align: center;
+        p {
+            font-size: x-large;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.photo {  
+    overflow: hidden;
+    width: 800px;
+    height: 460px;
+    color: #fff;
+    background-image: url("../../../assets/img/books.jpg");  
+    background-size: 100%;  
+    background-size: cover;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border: solid 1px #AC0011;
+} 

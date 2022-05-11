@@ -1,0 +1,42 @@
+.main-card {  
+    color: #fff;
+    background-image: url("../../../assets/img/library.jpg");  
+    background-size: cover;
+    background-size: 100%;  
+    height: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}  
+
+.example-card {
+    max-width: 800px;
+    margin-top: 7%;  
+    margin-bottom: 7%;
+    border-radius: 20px;
+    background-color: #94A590;  
+    padding: 50px 100px 50px 100px;
+    mat-card-content {
+        text-align: center;
+        p {
+            margin: 20px 0 20px 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: x-large;
+            margin: 0 0 0 0;
+        }
+    }
+}
+
+.video {  
+    height: 460px;
+    margin-top: 20px;
+    color: #fff;
+    background-image: url("https://i.pinimg.com/originals/51/83/1c/51831ce605aca6126177a7fbe5877a4c.png");  
+    background-size: 100%;  
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

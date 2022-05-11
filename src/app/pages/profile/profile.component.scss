@@ -1,0 +1,51 @@
+.main-card {  
+    color: #fff;
+    background-image: url("../../../assets/img/library.jpg");  
+    background-size: cover;
+    background-size: 100%;  
+    height: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}  
+
+.example-card {
+    max-width: 800px;
+    margin-top: 7%;  
+    margin-bottom: 7%;
+    border-radius: 20px;
+    background-color: #94A590;
+    padding: 50px 100px 50px 100px;
+    mat-card-content {
+        text-align: center;
+        p {
+            margin: 20px 0 20px 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: x-large;
+            margin: 0 0 0 0;
+        }
+        a {
+            text-decoration: none;
+            p {
+                color: #AC0011;
+                font-size: large;
+            }
+        }
+    }
+}
+
+.user {  
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #fff;
+    background-image: url("../../../assets/img/Emma.png");  
+    background-size: 100%;  
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

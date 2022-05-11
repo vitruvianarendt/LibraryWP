@@ -1,0 +1,52 @@
+.main-card {  
+    color: #fff;
+    background-image: url("../../../../assets/img/library.jpg");  
+    background-size: 100%;  
+    background-size: cover;  
+    height: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.example-card {
+    max-width: 800px;
+    border-radius: 20px;
+    background-color: #94A590;
+    padding: 50px 100px 50px 100px;
+    mat-card-content {
+        text-align: center;
+        p {
+            margin: 20px 0 20px 0;
+        }
+        input {
+            height: 60px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: large;
+            border-radius: 10px;
+            background-color: #667761;
+            color: black;         
+        }
+        .auth {
+            height: 50px;
+            width: 250px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: 10px 0 10px 0;
+        }
+        .auth::placeholder {
+            color: black;
+        }
+        p {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: xx-large;
+            margin: 0 0 0 0;
+        }
+    }
+}
+
+.errorMsg {
+    color: #AC0011;
+}
